@@ -1,0 +1,35 @@
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+.banner-carousel h1{font-size: 15px!important;font-weight: normal!important;line-height: 2!important;}
+.banner-carousel h3{font-size: 25px!important;font-weight: 800!important;}
+.cta-section h2{font-size: 20px!important;}
+.cta-section .inner-container .btn-box{display: flex!important;justify-content: center;}
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+.banner-carousel h1{font-size: 25px!important;font-weight: normal!important;line-height: 2!important;}
+.banner-carousel h3{font-size: 40px!important;font-weight: 800!important;}
+}
+
+/* Styles for desktops */
+@media only screen and (min-width: 1025px) {
+.banner-carousel h1{font-size: 25px!important;font-weight: normal!important;line-height: 2!important;}
+.banner-carousel h3{font-size: 40px!important;font-weight: 800!important;}
+/*.banner-carousel .p_relative{overflow: hidden!important;}*/
+}
+.let-know-label{opacity: 0;}
+.list-style-one li span{color: #73727c;font-weight: normal;text-shadow: none;}
+.services-slide{width: 360px;height: 380px;padding: 20px!important;width: 360px;height: 380px;padding: 20px !important;display: flex;flex-direction: column;justify-content: space-between;}
+.four-item-carousel .text{padding: 15px;display: flex;justify-content: space-around;flex-direction: column;height: 100%;}
+.four-item-carousel p{line-height: 1.1;font-size: 14px;font-weight: 400;}
+.four-item-carousel h3,.four-item-carousel p{text-align: left;color: #fff!important;}
+.four-item-carousel h3 a{color: #fff!important;}
+.four-item-carousel .btn-box a{  padding: 3px 15px;font-size: 12px !important;}
+.four-item-carousel .owl-carousel .owl-item {
+    width: 200px; /* Set the width of each item to 200 pixels */
+}
+.country-section .auto-container{max-width: 1400px!important;}
+.banner-carousel .content-box{height: 300px;display: flex;justify-content: space-between;flex-direction: column;}
+.banner-carousel h1,.banner-carousel h3{margin: unset!important;}
+.banner-carousel .slide-item::before{background: unset!important;}
