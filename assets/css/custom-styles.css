@@ -4,6 +4,7 @@
 .banner-carousel h3{font-size: 25px!important;font-weight: 800!important;}
 .cta-section h2{font-size: 20px!important;}
 .cta-section .inner-container .btn-box{display: flex!important;justify-content: center;}
+.news-section li a{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;color: #73727c!important}
 }
 
 /* Styles for tablets */
