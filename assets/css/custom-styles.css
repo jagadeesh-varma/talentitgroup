@@ -36,3 +36,6 @@
 .banner-carousel .slide-item::before{background: unset!important;}
 .news-section h3 a{display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;}
 .news-section li a{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;color: #73727c!important}
+.news-section .read-more{color: #ff5857!important;}
+.news-section .lower-content{height: 280px;display: flex;flex-direction: column;justify-content: space-between;}
+.clients-section .more-text{width: 75%;margin: 0 auto;padding: 15px 0px;}

@@ -867,7 +867,7 @@
   transition: all 500ms ease;
 }
 
-.news-block-one .inner-box:hover .image-box .image img{
+.news-block-one .inner-box .image-box .image img{
   transform: scaleY(1.05);
 }
 
@@ -875,7 +875,7 @@
   color: #73727c;
 }
 
-.news-block-one .inner-box:hover{
+.news-block-one .inner-box{
   box-shadow: 0 10px 30px 0px rgb(0 0 0 / 06%);
 }
 
