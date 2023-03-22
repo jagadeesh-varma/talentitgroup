@@ -5,6 +5,13 @@
 .cta-section h2{font-size: 20px!important;}
 .cta-section .inner-container .btn-box{display: flex!important;justify-content: center;}
 .news-section li a{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;color: #73727c!important}
+.db-content-1{padding: 25px!important;}
+.web-sercurity{padding: 15px!important;}
+.data-management-bg{padding: 40px!important;}
+.devope-inside-content-wrapper{padding: 40px!important;}
+.devope-inside-content-wrapper p{line-height: 1.5!important;}
+.migration-grid {flex-wrap: nowrap;justify-content: center;}
+.item {flex-basis: 100%!important; }
 }
 
 /* Styles for tablets */
@@ -23,7 +30,7 @@
 .list-style-one li span{color: #73727c;font-weight: normal;text-shadow: none;}
 .services-slide{width: 360px;height: 380px;padding: 20px!important;width: 360px;height: 380px;padding: 20px !important;display: flex;flex-direction: column;justify-content: space-between;}
 .four-item-carousel .text{padding: 15px;display: flex;justify-content: space-around;flex-direction: column;height: 100%;}
-.four-item-carousel p{line-height: 1.1;font-size: 14px;font-weight: 400;}
+.four-item-carousel p{line-height: 1.3;font-size: 14px;font-weight: 400;}
 .four-item-carousel h3,.four-item-carousel p{text-align: left;color: #fff!important;}
 .four-item-carousel h3 a{color: #fff!important;}
 .four-item-carousel .btn-box a{  padding: 3px 15px;font-size: 12px !important;}
@@ -39,3 +46,73 @@
 .news-section .read-more{color: #ff5857!important;}
 .news-section .lower-content{height: 280px;display: flex;flex-direction: column;justify-content: space-between;}
 .clients-section .more-text{width: 75%;margin: 0 auto;padding: 15px 0px;}
+.main-menu .navigation{padding-left: 75px!important;}
+.main-header .logo-box .logo{max-width: 180px!important;}
+.main-menu .navigation > li > ul > li .active{color: #ff5857!important;}
+/* Services > Data Management */
+.data-management-bg {text-align: center;padding: 70px 20px;background-image: url(../images/background/data-management-bg.jpg);background-attachment: fixed;background-size: cover;width: 100%;min-height: 273px;color: #fff;}
+.data-management-bg p{font-weight: normal!important;padding-top: 15px;text-shadow: none;}
+.data-management-bg h3{padding-top: 35px;} 
+.backend-block-inside {text-align: left;margin-bottom: 50px;-webkit-transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;-o-transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;padding: 15px 15px 15px 40px;margin-top: 30px;
+}
+.db-content-1{padding: 50px 0px;}
+.devope-inside-content-wrapper {
+  min-height: 516px;
+  background: #52b5e6;
+  color: #fff;
+  padding: 74px;
+  padding: 24px 83px;
+}
+/* Services > Data Management  */
+/* Services > System Migration  */
+img.welcome-image {
+  width: 100% !important;
+}
+.devopes-services {
+  background: #f2f3f8;
+  padding: 64px;
+}
+.cloud-services-block h4 {
+  text-align: center;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  color: #52b5e6 !important;
+}
+.cloud-services-block {
+  border: 1px solid #ccc !important;
+  margin: 13px 40px;
+  padding: 24px 28px;
+}
+.cloud-services-block:hover {
+    box-shadow: 15px 15px 38px 0 rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 15px 15px 38px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 15px 15px 38px 0 rgba(0,0,0,.1);
+    border: 1px solid transparent !important;
+}
+.devopes-services h2, .devopes-expertise h2, .Managed-it-Services h2, .enterprise-services h2 {
+    margin-top: 0px;
+    color: #1f83ce;
+    text-align: center !important;
+}
+.devopes-expertise {
+    text-align: center;
+    padding-top: 20px;
+}
+.web-mig {
+    margin: 0px 18px;
+}
+.welcome-header h4 {
+    font-size: 20px !important;
+    font-weight: bold;
+    /* margin: 20px 0px 30px 0px !important; */
+    line-height: 28px;
+    font-size: 16px;
+}
+.devopes-services {
+    background: #f2f3f8;
+    padding: 64px;
+}
+
+.migration-grid{  display: flex;flex-wrap: wrap;}
+.item {flex-basis: 48%;padding: 20px;}
+/* Services > System Migration  */
