@@ -127,4 +127,11 @@ img.welcome-image {
   min-height: 273px;
   color: #fff;
 }
+.managed-it-services-content h4{color: #fff!important;padding-top: 15px;font-size: 20px;}
+.managed-it-services-content p{color: #fff;font-size: 14px;text-shadow: none;} 
+.cloud-services {
+  text-align: center;
+  background: #f2f3f8;
+  padding: 40px 20px;
+}
 /* Services > Data Warehouse  */
