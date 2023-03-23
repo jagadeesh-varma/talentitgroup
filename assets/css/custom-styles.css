@@ -12,6 +12,7 @@
 .devope-inside-content-wrapper p{line-height: 1.5!important;}
 .migration-grid {flex-wrap: nowrap;justify-content: center;}
 .item {flex-basis: 100%!important; }
+.three-grid-responsive{padding: 35px;}
 }
 
 /* Styles for tablets */
@@ -136,3 +137,10 @@ img.welcome-image {
 }
 .testing-animation-lgwarp{margin: 20px;text-align: center;width: 100%;}
 /* Services > Data Warehouse  */
+/* Services > Q and A  */
+.three-grid h4{padding: 15px 0px!important;color: #666;}
+.three-grid p{line-height: 2!important;}
+/* Services > Q and A  */
+.main-wrapperin ul{list-style: unset!important;padding-left: 30px!important;}
+.main-wrapperin li{list-style-type: unset!important;}
+.software-dev-text p{font-weight: 400!important;text-shadow: none;}
