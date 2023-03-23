@@ -116,3 +116,15 @@ img.welcome-image {
 .migration-grid{  display: flex;flex-wrap: wrap;}
 .item {flex-basis: 48%;padding: 20px;}
 /* Services > System Migration  */
+/* Services > Data Warehouse  */
+.data-wirehouse-bg {
+  text-align: center;
+  padding: 70px 20px;
+  background-image: url(../images/resource/data-wirehouse-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 273px;
+  color: #fff;
+}
+/* Services > Data Warehouse  */
