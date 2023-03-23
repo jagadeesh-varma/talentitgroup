@@ -144,3 +144,13 @@ img.welcome-image {
 .main-wrapperin ul{list-style: unset!important;padding-left: 30px!important;}
 .main-wrapperin li{list-style-type: unset!important;}
 .software-dev-text p{font-weight: 400!important;text-shadow: none;}
+.applications-dev-bg {
+  text-align: center;
+  padding: 70px 20px;
+  background-image: url(../images/background/mobile-apps-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 750px;
+  color: #fff;
+}
