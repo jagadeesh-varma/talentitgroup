@@ -154,3 +154,24 @@ img.welcome-image {
   min-height: 750px;
   color: #fff;
 }
+.applications-dev-bg .content-div1{text-align: left !important;display: flex;flex-direction: column;justify-content: center;}
+.applications-dev-bg .item1{padding: 20px 50px!important;}
+.applications-dev-bg h2{width: 100%;padding-bottom: 30px;color: #fff;}
+.advisory-block-inside h4 {
+    font-weight: 600 !important;
+}
+.advisory-block-inside p {
+    font-size: 15px;
+}
+.advisory-block-inside:hover {
+    box-shadow: 15px 15px 38px 0 rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 15px 15px 38px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 15px 15px 38px 0 rgba(0,0,0,.1);
+}
+.expertise-header{width: 100%;}
+.expertise-header h2{padding: 30px;}
+.advisory-block-inside h4{padding: 10px;}
+.advisory-block-inside img{padding: 10px;}
+.advisory-block-inside p{line-height: 2!important;}
+.advisory-block-inside{text-align: center;}
+.row-gap {margin: 50px 0px !important;}
