@@ -533,6 +533,16 @@
 		enableMasonry();
 	});
 
+/* Add custom scripts  */
+
+$(document).ready(function(){
+
+	$(".fa-angle-down").click();
+
+})
+
+
+
 	
 
 })(window.jQuery);

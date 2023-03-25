@@ -175,3 +175,37 @@ img.welcome-image {
 .advisory-block-inside p{line-height: 2!important;}
 .advisory-block-inside{text-align: center;}
 .row-gap {margin: 50px 0px !important;}
+.footer-logo {width: 90%;margin: 30px 0px;}
+.footer-logo{max-width: unset!important;}
+.logo-paragraph-wraper p{color: #fff;}
+.footer-wrapper {
+  position: relative;
+  width: 100%;
+/*  background: #202426;*/
+}
+.widget-title {
+  font-weight: 600;
+  position: relative;
+  font-size: 23px;
+  line-height: 30px;
+  color: #fff !important;
+  margin-top: 60px;
+  font-family: 'Roboto', sans-serif !important;
+}
+.divideres.divideres-primary {
+  margin: -23px 0px 15px 0px;
+}
+.divideres {
+  display: block;
+  width: 70px;
+  height: 3px;
+  display: inline-block;
+  background: #52b5e6 !important;
+}
+.computer-softwrer-wrapper li a{color: #9390a7!important;}
+.footer-primary-viper p{color: #9390a7!important;}
+.main-footer .widget-section{padding: 20px 0px!important;}
+.social-links{padding-top: 20px;}
+.main-footer .widget-section .widget-title{margin-bottom: 10px;}
+.menu-area .mobile-nav-toggler{margin-top: 20px!important;}
+.mobile-menu .nav-logo{position: relative;height: 180px!important;display: flex;align-content: center;justify-content: center;align-items: center;padding: 30px;}
