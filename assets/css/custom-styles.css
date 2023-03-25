@@ -211,3 +211,5 @@ img.welcome-image {
 .mobile-menu .nav-logo{position: relative;height: 180px!important;display: flex;align-content: center;justify-content: center;align-items: center;padding: 30px;}
 .sticky-header{display: block!important;}
 .sticky-header .logo-box{padding: 15px 0px!important;}
+.author-box{padding: unset!important;text-align: center;}
+.mobile-menu .contact-info{position: relative;padding: 80px 30px 20px 30px;}

@@ -25,8 +25,8 @@
 <link href="assets/css/elpath.css" rel="stylesheet">
 <link href="assets/css/blog.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/custom-styles.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
-
 </head>
 
 
@@ -54,29 +54,29 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown"><a href="index.html">Home</a>
+                                        <li><a href="index.html">Home</a>
                                         </li>
-                                        <li class="current  dropdown"><a>Services</a>
+                                        <li class="dropdown"><a style="cursor:pointer;">Services</a>
                                             <ul>
                                                 <li><a href="data-management.html">Data Management</a></li>
-                                                <li><a class="active">Systems Migration</a></li>
+                                                <li><a href="systems-migration.html">Systems Migration</a></li>
                                                 <li><a href="data-warehousing.html">Data Warehousing</a></li>
                                                 <li><a href="qa-testing.html">QA & Testing </a></li>
                                                 <li><a href="devops.html">DevOps  </a></li>
                                             </ul>
                                         </li> 
-                                        <li class="dropdown"><a href="index.html">Development</a>
+                                        <li class="dropdown"><a>Development</a>
                                             <ul>
-                                                <li><a href="#coaching.html">Software Development </a></li>
-                                                <li><a href="#coaching-details.html">Web Development </a></li>
-                                                <li><a href="#coaching-details-2.html">Mobile Application Development </a></li>
-                                                <li><a href="#coaching-details-3.html">Application Development </a></li>
+                                                <li><a href="software-development.html">Software Development </a></li>
+                                                <li><a href="web-development.html">Web Development </a></li>
+                                                <li><a href="mobile-application-development.html">Mobile Application Development </a></li>
+                                                <li><a href="application-development.html">Application Development </a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#contact.html">About</a></li> 
-                                        <li><a href="#contact.html">Training</a></li> 
-                                        <li><a href="#contact.html">Careers</a></li> 
-                                        <li><a href="#contact.html">Blog</a></li> 
+                                        <li><a href="about.html">About</a></li> 
+                                        <li><a href="training.html">Training</a></li> 
+                                        <li><a href="careers.html">Careers</a></li> 
+                                        <li class="current"><a href="blog.html">Blog</a></li> 
                                         <li><a href="contact.html">Contact</a></li> 
                                     </ul>
                                 </div>
@@ -87,13 +87,19 @@
             </div>
 
             <!--sticky Header-->
-            <div class="sticky-header">
+            <div class="sticky-header" style="display:block!important;">
                 <div class="auto-container">
                     <div class="outer-box clearfix">
                         <div class="logo-box pull-left">
                             <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
                         </div>
                         <div class="menu-area clearfix pull-right">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
                             <nav class="main-menu clearfix">
                                 <!--Keep This Empty / Menu will come through Javascript-->
                             </nav>
@@ -116,8 +122,8 @@
                     <h4>Contact Info</h4>
                     <ul>
                         <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                        <li><a href="tel:+8801682648101">+88 0123456789</a></li>
+                        <li><a href="mailto: hr@verdictittech.com">hr@verdictittech.com</a></li>
                     </ul>
                 </div>
                 <div class="social-links">
@@ -158,19 +164,19 @@
                                 <div class="inner-box p_relative d_block b_radius_10 tran_5">
                                     <div class="image-box p_relative d_block">
                                         <figure class="image p_relative d_block">
-                                            <a href="blog-details.html"><i class="fas fa-link"></i></a>
-                                            <img src="assets/images/news/news-4.jpg" alt="">
+                                            <a href="#blog-details.html"><i class="fas fa-link"></i></a>
+                                            <img src="assets/images/news/news-1.png" alt="">
                                         </figure>
                                         <span class="post-date p_absolute r_30 b_0 w_120 fs_12 color-white fw_sbold z_1">20 Sep, 2021</span>
                                     </div>
                                     <div class="lower-content p_relative d_block pt_25 pr_30 pb_30 pl_30">
                                         <ul class="post-info clearfix p_relative d_block tran_5">
-                                            <li class="p_relative d_iblock float_left fs_14 fw_medium mr_25"><a href="blog-details.html" class="d_iblock hov-color">By Admin</a></li>
-                                            <li class="p_relative d_iblock float_left fs_14 fw_medium"><a href="blog-details.html" class="d_iblock hov-color">2 Comments</a></li>
+                                            <li class="p_relative d_iblock float_left fs_14 fw_medium mr_25"><a href="#blog-details.html" class="d_iblock hov-color">By Admin</a></li>
+                                            <li class="p_relative d_iblock float_left fs_14 fw_medium"><a href="#blog-details.html" class="d_iblock hov-color">2 Comments</a></li>
                                         </ul>
-                                        <h2><a href="blog-details.html" class="d_iblock black-color hov-color">Want to know how machine learning works?</a></h2>
+                                        <h2><a href="#blog-details.html" class="d_iblock black-color hov-color">Want to know how machine learning works?</a></h2>
                                         <p>Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving....</p>
-                                        <div class="link"><a href="blog-details.html" class="p_relative d_iblock fs_14 fw_medium theme-color">Read More</a></div>
+                                        <div class="link"><a href="#blog-details.html" class="p_relative d_iblock fs_14 fw_medium theme-color">Read More</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -178,19 +184,19 @@
                                 <div class="inner-box p_relative d_block b_radius_10 tran_5">
                                     <div class="image-box p_relative d_block">
                                         <figure class="image p_relative d_block">
-                                            <a href="blog-details.html"><i class="fas fa-link"></i></a>
-                                            <img src="assets/images/news/news-5.jpg" alt="">
+                                            <a href="#blog-details.html"><i class="fas fa-link"></i></a>
+                                            <img src="assets/images/news/news-2.png" alt="">
                                         </figure>
                                         <span class="post-date p_absolute r_30 b_0 w_120 fs_12 color-white fw_sbold z_1">20 Sep, 2021</span>
                                     </div>
                                     <div class="lower-content p_relative d_block pt_25 pr_30 pb_30 pl_30">
                                         <ul class="post-info clearfix p_relative d_block tran_5">
-                                            <li class="p_relative d_iblock float_left fs_14 fw_medium mr_25"><a href="blog-details.html" class="d_iblock hov-color">By Admin</a></li>
-                                            <li class="p_relative d_iblock float_left fs_14 fw_medium"><a href="blog-details.html" class="d_iblock hov-color">2 Comments</a></li>
+                                            <li class="p_relative d_iblock float_left fs_14 fw_medium mr_25"><a href="#blog-details.html" class="d_iblock hov-color">By Admin</a></li>
+                                            <li class="p_relative d_iblock float_left fs_14 fw_medium"><a href="#blog-details.html" class="d_iblock hov-color">2 Comments</a></li>
                                         </ul>
-                                        <h2><a href="blog-details.html" class="d_iblock black-color hov-color">How to become a skilled Developer</a></h2>
+                                        <h2><a href="#blog-details.html" class="d_iblock black-color hov-color">How to become a skilled Developer</a></h2>
                                         <p>Mobile app development is a process for building mobile applications that run on mobile devices. These applications can either be pre-installed or downloaded and installed by the user later. They use the network capabilities of the device to work computing....</p>
-                                        <div class="link"><a href="blog-details.html" class="p_relative d_iblock fs_14 fw_medium theme-color">Read More</a></div>
+                                        <div class="link"><a href="#blog-details.html" class="p_relative d_iblock fs_14 fw_medium theme-color">Read More</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -198,19 +204,19 @@
                                 <div class="inner-box p_relative d_block b_radius_10 tran_5">
                                     <div class="image-box p_relative d_block">
                                         <figure class="image p_relative d_block">
-                                            <a href="blog-details.html"><i class="fas fa-link"></i></a>
-                                            <img src="assets/images/news/news-6.jpg" alt="">
+                                            <a href="#blog-details.html"><i class="fas fa-link"></i></a>
+                                            <img src="assets/images/news/news-3.png" alt="">
                                         </figure>
                                         <span class="post-date p_absolute r_30 b_0 w_120 fs_12 color-white fw_sbold z_1">20 Sep, 2021</span>
                                     </div>
                                     <div class="lower-content p_relative d_block pt_25 pr_30 pb_30 pl_30">
                                         <ul class="post-info clearfix p_relative d_block tran_5">
-                                            <li class="p_relative d_iblock float_left fs_14 fw_medium mr_25"><a href="blog-details.html" class="d_iblock hov-color">By Admin</a></li>
-                                            <li class="p_relative d_iblock float_left fs_14 fw_medium"><a href="blog-details.html" class="d_iblock hov-color">2 Comments</a></li>
+                                            <li class="p_relative d_iblock float_left fs_14 fw_medium mr_25"><a href="#blog-details.html" class="d_iblock hov-color">By Admin</a></li>
+                                            <li class="p_relative d_iblock float_left fs_14 fw_medium"><a href="#blog-details.html" class="d_iblock hov-color">2 Comments</a></li>
                                         </ul>
-                                        <h2><a href="blog-details.html" class="d_iblock black-color hov-color">business analyst experts</a></h2>
+                                        <h2><a href="#blog-details.html" class="d_iblock black-color hov-color">business analyst experts</a></h2>
                                         <p>Business analysts use data to form business insights and recommend changes in businesses and other organizations. Business analysts can identify issues in virtually any part of an organization, including IT processes, organizational structures, or staff development.....</p>
-                                        <div class="link"><a href="blog-details.html" class="p_relative d_iblock fs_14 fw_medium theme-color">Read More</a></div>
+                                        <div class="link"><a href="#blog-details.html" class="p_relative d_iblock fs_14 fw_medium theme-color">Read More</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -235,19 +241,19 @@
                                 </div>
                                 <div class="post-inner">
                                     <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="assets/images/news/post-1.jpg" alt=""></a></figure>
+                                        <figure class="post-thumb"><a href="#blog-details.html"><img src="assets/images/news/news-1.png" alt=""></a></figure>
                                         <span class="post-date">By Admin</span>
-                                        <h6><a href="blog-details.html">Want to know how machine learning works?</a></h6>
+                                        <h6><a href="#blog-details.html">Want to know how machine learning works?</a></h6>
                                     </div>
                                     <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="assets/images/news/post-2.jpg" alt=""></a></figure>
+                                        <figure class="post-thumb"><a href="#blog-details.html"><img src="assets/images/news/news-2.png" alt=""></a></figure>
                                         <span class="post-date">By Admin</span>
-                                        <h6><a href="blog-details.html">How to become a skilled Developer</a></h6>
+                                        <h6><a href="#blog-details.html">How to become a skilled Developer</a></h6>
                                     </div>
                                     <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="assets/images/news/post-3.jpg" alt=""></a></figure>
+                                        <figure class="post-thumb"><a href="#blog-details.html"><img src="assets/images/news/news-3.png" alt=""></a></figure>
                                         <span class="post-date">By Admin</span>
-                                        <h6><a href="blog-details.html">business analyst experts</a></h6>
+                                        <h6><a href="#blog-details.html">business analyst experts</a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -261,101 +267,94 @@
 
         <!-- main-footer -->
         <section class="main-footer">
-            <div class="image-layer p_absolute r_0 b_0" style="background-image: url(assets/images/shape/shape-5.png);"></div>
-            <div class="footer-top">
-                <div class="auto-container">
-                    <div class="top-inner">
-                        <div class="info-box">
-                            <div class="icon-box"><i class="flaticon-message"></i></div>
-                            <span>Email address</span>
-                            <h5><a href="mailto:needhelp@company.com">needhelp@company.com</a></h5>
-                        </div>
-                        <figure class="footer-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt=""></a></figure>
-                        <div class="info-box">
-                            <div class="icon-box"><i class="flaticon-phone-call"></i></div>
-                            <span>Call now</span>
-                            <h5><a href="tel:12463330079">+1- (246) 333-0079</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="widget-section">
                 <div class="auto-container">
-                    <div class="row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget about-widget">
-                                <div class="widget-title">
-                                    <h4>About</h4>
+                    <footer class="footer-wrapper">
+                       <div class="container">
+                          <div class="row wow fadeInUp animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                             <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="footer-box-list">
+                                   <div class="footer-logo">
+                                      <img src="assets/images/logo.png" alt="footer-logo" class="footer-logo">
+                                   </div>
+                                   <div class="logo-paragraph-wraper">
+                                      <p>
+                                         VerdictIT is having global presence in consulting, technology and outsourcing solutions. We enable clients to stay a step ahead of emerging business trends and outperform the competition.
+                                      </p>
+                                   </div>
                                 </div>
-                                <div class="widget-content">
-                                    <p>Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore.</p>
-                                    <ul class="social-links clearfix">
-                                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
+                                <ul class="social-links clearfix">
+                                   <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                   <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                   <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                   <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+
+                             </div>
+                             <div class="col-md-8 col-sm-12 col-xs-12 no-padding">
+                                <div class="row">
+                                <div class="col-md-4 col-sm-12 col-xs-12">
+                                   <div class="footer-box-list2">
+                                      <div class="widget-link">
+                                         <h5 class="widget-title">QUICK LINKS</h5>
+                                         <div class="divideres divideres-primary"></div>
+                                         <ul div="" class="computer-softwrer-wrapper">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="data-management.html">Services</a></li>
+                                            <li><a href="software-development.html">Development</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="training.html">Training</a></li>
+                                            <li><a href="careers.html">Careers</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                         </ul>
+                                      </div>
+                                   </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget links-widget ml_80">
-                                <div class="widget-title">
-                                    <h4>Links</h4>
+                                <div class="col-md-4 col-sm-12 col-xs-12">                           
+                                    <div class="footer-box-list">
+                                      <div class="widget-link">
+                                         <h5 class="widget-title">SERVICES</h5>
+                                         <div class="divideres divideres-primary"></div>
+                                         <ul div="" class="computer-softwrer-wrapper">
+                                            <li><a href="data-management">Data Management</a></li>
+                                            <li><a href="systems-migration">System Migration</a></li>
+                                            <li><a href="data-warehousing">Data Warehousing</a></li>
+                                            <li><a href="test-automation">Test Automation</a></li>
+                                            <li><a href="application-development">Application Development</a></li>
+                                         </ul>
+                                      </div>
+                                   </div>                   
                                 </div>
-                                <div class="widget-content">
-                                    <ul class="links-list clearfix">
-                                        <li><a href="index.html">Our Projects</a></li>
-                                        <li><a href="index.html">About Us</a></li>
-                                        <li><a href="index.html">Our Mission</a></li>
-                                        <li><a href="index.html">Meet the Team</a></li>
-                                        <li><a href="index.html">Contact</a></li>
-                                    </ul>
+                                <div class="col-md-4 col-sm-12 col-xs-12">
+                                   <div class="footer-box-list1">
+                                      <div class="widget-link">
+                                         <h5 class="widget-title">CONTACT US</h5>
+                                         <div class="divideres divideres-primary"></div>
+                                         <div class="footer-primary-viper">
+                                            <p><b>VerdictIT GROUP LLC</b><br>
+                                               6565 N MACARTHUR BLVD STE 225
+                                               Irving, TX 75039<br><br>
+                                               <a href="mailto: hr@verdictittech.com" class="contact-email-wrap">  hr@verdictittech.com</a><br><br>
+                                               Contact :  +1 5108785099
+                                            </p>
+                                            <p> &nbsp;</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>                            
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget links-widget">
-                                <div class="widget-title">
-                                    <h4>Explore</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="links-list clearfix">
-                                        <li><a href="index.html">Site Map</a></li>
-                                        <li><a href="index.html">Help Center</a></li>
-                                        <li><a href="index.html">Terms of Use</a></li>
-                                        <li><a href="index.html">Privacy Policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget newsletter-widget">
-                                <div class="widget-title">
-                                    <h4>Newsletter</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <form action="index.html" method="post">
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email address" required="">
-                                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="check-box">
-                                                <input class="check" type="checkbox" id="checkbox">
-                                                <label for="checkbox">I agree to all your terms and policies</label>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                             </div>
+                          </div>
+                       </div>
+                       <!-- end container -->
+                    </footer>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="copyright centred">
-                    <p>&copy; Copyright 2022 by <a href="index.html">Vistpro</a>.com</p>
+                    <p>&copy; Copyright 2023 by <a href="index.html">VerdictIT</a>.com</p>
                 </div>
             </div>
         </section>
