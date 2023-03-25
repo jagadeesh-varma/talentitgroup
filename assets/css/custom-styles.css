@@ -44,12 +44,12 @@
 .banner-carousel .slide-item::before{background: unset!important;}
 .news-section h3 a{display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;}
 .news-section li a{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;color: #73727c!important}
-.news-section .read-more{color: #ff5857!important;}
+.news-section .read-more{color: #489DD6!important;}
 .news-section .lower-content{height: 280px;display: flex;flex-direction: column;justify-content: space-between;}
 .clients-section .more-text{width: 75%;margin: 0 auto;padding: 15px 0px;}
 .main-menu .navigation{padding-left: 75px!important;}
 .main-header .logo-box .logo{max-width: 180px!important;}
-.main-menu .navigation > li > ul > li .active{color: #ff5857!important;}
+.main-menu .navigation > li > ul > li .active{color: #489DD6!important;}
 /* Services > Data Management */
 .data-management-bg {text-align: center;padding: 70px 20px;background-image: url(../images/background/data-management-bg.jpg);background-attachment: fixed;background-size: cover;width: 100%;min-height: 273px;color: #fff;}
 .data-management-bg p{font-weight: normal!important;padding-top: 15px;text-shadow: none;}
