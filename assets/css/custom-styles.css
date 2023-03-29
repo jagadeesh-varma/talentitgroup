@@ -30,17 +30,20 @@
 .let-know-label{opacity: 0;}
 .list-style-one li span{color: #73727c;font-weight: normal;text-shadow: none;}
 .services-slide{width: 360px;height: 380px;padding: 20px!important;width: 360px;height: 380px;padding: 20px !important;display: flex;flex-direction: column;justify-content: space-between;}
-.four-item-carousel .text{padding: 15px;display: flex;justify-content: space-around;flex-direction: column;height: 100%;}
-.four-item-carousel p{line-height: 1.3;font-size: 14px;font-weight: 400;}
+.four-item-carousel .text{padding: 25px;display: flex;flex-direction: column;height: 100%;}
+.four-item-carousel p{line-height: 1.5;font-size: 12px;font-weight: 400;margin-top: 20px;}
 .four-item-carousel h3,.four-item-carousel p{text-align: left;color: #73727c!important;}
+.four-item-carousel h3{font-size: 20px;}
 .four-item-carousel h3 a{color: #489DD6!important;}
 .four-item-carousel .btn-box a{  padding: 3px 15px;font-size: 12px !important;}
 .four-item-carousel .owl-carousel .owl-item {
     width: 200px; /* Set the width of each item to 200 pixels */
 }
-.country-section .auto-container{max-width: 1400px!important;}
-.banner-carousel .content-box{height: 250px;display: flex;justify-content: space-between;flex-direction: column;}
+/*.country-section .auto-container{max-width: 1400px!important;}*/
+.banner-carousel .content-box{display: flex;justify-content: space-between;flex-direction: column;}
 .banner-carousel h1,.banner-carousel h3{margin: unset!important;}
+.banner-carousel h3{padding-bottom: 25px;text-transform: capitalize;}
+.banner-carousel h1{padding-bottom: 40px;}
 .banner-carousel .slide-item::before{background: unset!important;}
 .news-section h3 a{display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;}
 .news-section li a{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;color: #73727c!important}
@@ -241,3 +244,7 @@ img.welcome-image {
 .types-of-management h3{  margin-top: 25px;margin-bottom: 20px;font-size: 18px;}
 .types-of-management p{font-size: 16px;}
 .cta-section .bg-layer{height: 100%;}
+.country-section .inner-content .single-item .image-box img{height: 325px!important;}
+.sec-title h2{font-size: 35px!important;}
+.country-section .owl-dots{display: none;}
+.country-section .btn-box{  display: flex;flex-direction: column;justify-content: flex-end;align-items: center;height: 100%;}
