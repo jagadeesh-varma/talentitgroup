@@ -241,11 +241,27 @@ img.welcome-image {
   color: #fff;
   text-decoration: underline;
 }
-.types-of-management h3{  margin-top: 25px;margin-bottom: 20px;font-size: 18px;}
-.types-of-management p{font-size: 16px;}
+.types-of-management h3{  margin-top: 60px;margin-bottom: 20px;font-size: 18px;}
+.types-of-management p{font-size: 16px;color: #333333!important;}
 .cta-section .bg-layer{height: 100%;}
 .country-section .inner-content .single-item .image-box img{height: 325px!important;}
 .sec-title h2{font-size: 35px!important;}
 .country-section .owl-dots{display: none;}
 .country-section .btn-box{  display: flex;flex-direction: column;justify-content: flex-end;align-items: center;height: 100%;}
 .banner-carousel .content-box h3{color: #489DD6!important;}
+.dm-header-section{display: flex;align-items: center;justify-content: center;}
+.dm-header{text-align: right;}
+.dm-header h1{color: #489DD6!important;font-size: 60px;}
+.dm-sub-text{font-size: 16px;text-align: center;text-align: center;padding: 30px 0px;color: #333333!important;}
+.dm-sub-text p{padding: 20px 0px;font-size: 20px;}
+.dm-7-types{margin-top: 80px;}
+.dm-7-types .main-heading{color: #333333!important;font-size: 40px;}
+.dm-7-types h3{color: #333333!important;font-size: 22px;}
+.data-management-details{position: relative;padding: 60px 0px 0px 0px;}
+.dm-header-line{padding: 30px 0px;}
+.dm-d_block p{font-size: 18px!important;}
+.dm-wide-image{margin:0px 60px;}
+.types-of-management{margin-top: 30px!important;}
+.web-security-content .two-column .content-box .list li:before{color: #666!important;}
+.web-security-content .sub-head-1{margin: 50px 0px;}
+.web-security-content ul li{color: #000!important;}
