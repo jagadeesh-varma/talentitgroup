@@ -241,8 +241,8 @@ img.welcome-image {
   color: #fff;
   text-decoration: underline;
 }
-.types-of-management h3{  margin-top: 60px;margin-bottom: 20px;font-size: 18px;}
-.types-of-management p{font-size: 16px;color: #333333!important;}
+.types-of-management h3{  margin-top: 60px;margin-bottom: 30px;font-size: 18px;}
+.types-of-management p{font-size: 16px;color: #666666!important;}
 .cta-section .bg-layer{height: 100%;}
 .country-section .inner-content .single-item .image-box img{height: 325px!important;}
 .sec-title h2{font-size: 35px!important;}
@@ -256,7 +256,7 @@ img.welcome-image {
 .dm-sub-text p{padding: 20px 0px;font-size: 20px;}
 .dm-7-types{margin-top: 80px;}
 .dm-7-types .main-heading{color: #333333!important;font-size: 40px;}
-.dm-7-types h3{color: #333333!important;font-size: 22px;}
+.dm-7-types h3{color: #666666!important;font-size: 24px;}
 .data-management-details{position: relative;padding: 60px 0px 0px 0px;}
 .dm-header-line{padding: 30px 0px;}
 .dm-d_block p{font-size: 18px!important;}
@@ -265,3 +265,23 @@ img.welcome-image {
 .web-security-content .two-column .content-box .list li:before{color: #666!important;}
 .web-security-content .sub-head-1{margin: 50px 0px;}
 .web-security-content ul li{color: #000!important;}
+.about-text-content-2 p{text-align: center;}
+.grey-bg-section .content-style-two{margin-top:56px;margin-bottom: 30px!important;}
+.grey-bg-section .black-span-im img{width: 60px; height: 60px;vertical-align: middle;margin-right: 15px;}
+.grey-bg-section .black-span-im{position: unset!important;display: unset!important;}
+.grey-bg-section .two-column .content-box h3{margin-bottom: unset!important;display: flex;align-items: center;}
+.grey-bg-section .two-column .content-box span{margin-bottom: 0px!important;}
+.grey-bg-section .two-column .content-box{margin: 30px;}
+.grey-bg-section .align-items-center{margin: 30px;}
+.grey-bg-section .second-row{margin-top: 30px;}
+.grey-bg-section .two-column .content-box h3{font-size: 25px!important;justify-content: center;}
+.grey-bg-section .two-column{margin-bottom: 40px!important;}
+.systems-migration .p-header{margin-top: 50px;}
+.qa-header-line-1{padding-top: 50px;padding-bottom: 10px;}
+.qa-header-line-2{padding-top: 10px;padding-bottom: }
+.grey-bg-section .two-column .box-border{margin: unset !important;display: flex;align-items: center;justify-content: center;text-align: center;}
+.two-column .box-border .content-box{padding: 30px;border: 2px solid #333;border-radius: 20px;width: 100%;justify-content: center;} 
+.grey-bg-section .box-border .content-box{margin: 40px 10px;}
+.grey-bg-section .box-border .content-box h3{height: 60px;}
+.devops-text-block{}
+.devops-container{margin: 40px 0px!important;}
