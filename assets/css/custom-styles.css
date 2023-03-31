@@ -285,3 +285,10 @@ img.welcome-image {
 .grey-bg-section .box-border .content-box h3{height: 60px;}
 .devops-text-block{}
 .devops-container{margin: 40px 0px!important;}
+.sft-development-two-section ul{padding-left: 15px!important;margin-top: 25px!important;}
+.sft-development-two-section ul li{list-style: initial!important;color: #73727c!important;}
+.sft-development-container{margin: 80px 0px!important;}
+.mobile-app-coulumn{display: flex;flex-direction: column;justify-content: center;}
+.mobile-app-coulumn h3{font-weight: 600!important;line-height: 1.6;}
+.two-column .box-border .content-box-2{width: 280px!important;}
+.services-grid li{width: auto;display: inline-block;}
