@@ -13,6 +13,10 @@
 .migration-grid {flex-wrap: nowrap;justify-content: center;}
 .item {flex-basis: 100%!important; }
 .three-grid-responsive{padding: 35px;}
+.dm-header .image-column .mr_60{margin: 30px!important;}
+.data-management-details{padding-top: 0px!important;}
+.dm-header h1{font-size: 30px!important;}
+.dm-header{text-align: left!important;}
 }
 
 /* Styles for tablets */
@@ -269,7 +273,7 @@ img.welcome-image {
 .grey-bg-section .content-style-two{margin-top:56px;margin-bottom: 30px!important;}
 .grey-bg-section .black-span-im img{width: 60px; height: 60px;vertical-align: middle;margin-right: 15px;}
 .grey-bg-section .black-span-im{position: unset!important;display: unset!important;}
-.grey-bg-section .two-column .content-box h3{margin-bottom: unset!important;display: flex;align-items: center;}
+.grey-bg-section .two-column .content-box h3{margin-bottom: unset!important;display: flex;align-items: center;line-height: 1.5;}
 .grey-bg-section .two-column .content-box span{margin-bottom: 0px!important;}
 .grey-bg-section .two-column .content-box{margin: 30px;}
 .grey-bg-section .align-items-center{margin: 30px;}
@@ -280,8 +284,8 @@ img.welcome-image {
 .qa-header-line-1{padding-top: 50px;padding-bottom: 10px;}
 .qa-header-line-2{padding-top: 10px;padding-bottom: }
 .grey-bg-section .two-column .box-border{margin: unset !important;display: flex;align-items: center;justify-content: center;text-align: center;}
-.two-column .box-border .content-box{padding: 30px;border: 2px solid #333;border-radius: 20px;width: 100%;justify-content: center;} 
-.grey-bg-section .box-border .content-box{margin: 40px 10px;}
+.two-column .box-border .content-box{padding: 20px;border: 2px solid #333;border-radius: 20px;width: 100%;justify-content: center;} 
+.grey-bg-section .box-border .content-box{margin: 40px;}
 .grey-bg-section .box-border .content-box h3{height: 60px;}
 .devops-text-block{}
 .devops-container{margin: 40px 0px!important;}
@@ -292,3 +296,5 @@ img.welcome-image {
 .mobile-app-coulumn h3{font-weight: 600!important;line-height: 1.6;}
 .two-column .box-border .content-box-2{width: 280px!important;}
 .services-grid li{width: auto;display: inline-block;}
+.app-service-section .left{justify-content: end!important;}
+.app-service-section .right{justify-content: start!important;}
