@@ -1,25 +1,3 @@
-/* Styles for mobile devices */
-@media only screen and (max-width: 600px) {
-.banner-carousel h1{font-size: 15px!important;font-weight: normal!important;line-height: 2!important;}
-.banner-carousel h3{font-size: 25px!important;font-weight: 800!important;}
-.cta-section h2{font-size: 20px!important;}
-.cta-section .inner-container .btn-box{display: flex!important;justify-content: center;}
-.news-section li a{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;color: #73727c!important}
-.db-content-1{padding: 25px!important;}
-.web-sercurity{padding: 15px!important;}
-.data-management-bg{padding: 40px!important;}
-.devope-inside-content-wrapper{padding: 40px!important;}
-.devope-inside-content-wrapper p{line-height: 1.5!important;}
-.migration-grid {flex-wrap: nowrap;justify-content: center;}
-.item {flex-basis: 100%!important; }
-.three-grid-responsive{padding: 35px;}
-.dm-header .image-column .mr_60{margin: 30px!important;}
-.data-management-details{padding-top: 0px!important;}
-.dm-header h1{font-size: 30px!important;}
-.dm-header{text-align: left!important;}
-}
-
-/* Styles for tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 .banner-carousel h1{font-size: 20px!important;font-weight: normal!important;line-height: 2!important;}
 .banner-carousel h3{font-size: 35px!important;font-weight: 800!important;}
@@ -263,12 +241,13 @@ img.welcome-image {
 .dm-7-types h3{color: #666666!important;font-size: 24px;}
 .data-management-details{position: relative;padding: 60px 0px 0px 0px;}
 .dm-header-line{padding: 30px 0px;}
-.dm-d_block p{font-size: 18px!important;}
+.dm-d_block p{font-size: 18px;}
 .dm-wide-image{margin:0px 60px;}
 .types-of-management{margin-top: 30px!important;}
 .web-security-content .two-column .content-box .list li:before{color: #666!important;}
 .web-security-content .sub-head-1{margin: 50px 0px;}
 .web-security-content ul li{color: #000!important;}
+.web-security-content .heading{text-align: center;color: #333333!important;font-size: 40px!important;}
 .about-text-content-2 p{text-align: center;}
 .grey-bg-section .content-style-two{margin-top:56px;margin-bottom: 30px!important;}
 .grey-bg-section .black-span-im img{width: 60px; height: 60px;vertical-align: middle;margin-right: 15px;}
@@ -298,3 +277,56 @@ img.welcome-image {
 .services-grid li{width: auto;display: inline-block;}
 .app-service-section .left{justify-content: end!important;}
 .app-service-section .right{justify-content: start!important;}
+.web-security-content .content-style-two{margin-top:56px;margin-bottom: 30px!important;}
+.know-types-header{text-align: center;color: #333333!important;font-size: 40px;}
+.expertise-qa-image{padding: 50px 0px 0px 0px;margin: 0px 50px;}
+.web-development-container .box-border .content-box{margin: 25px!important;}
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+.banner-carousel h1{font-size: 15px!important;font-weight: normal!important;line-height: 2!important;}
+.banner-carousel h3{font-size: 25px!important;font-weight: 800!important;}
+.cta-section h2{font-size: 20px!important;}
+.cta-section .inner-container .btn-box{display: flex!important;justify-content: center;}
+.news-section li a{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;color: #73727c!important}
+.db-content-1{padding: 25px!important;}
+.web-sercurity{padding: 15px!important;}
+.data-management-bg{padding: 40px!important;}
+.devope-inside-content-wrapper{padding: 40px!important;}
+.devope-inside-content-wrapper p{line-height: 1.5!important;}
+.migration-grid {flex-wrap: nowrap;justify-content: center;}
+.item {flex-basis: 100%!important; }
+.three-grid-responsive{padding: 35px;}
+.dm-header .image-column .mr_60{margin: 30px!important;}
+.data-management-details{padding-top: 0px!important;}
+.dm-header h1{font-size: 25px!important;}
+.dm-header{text-align: left!important;}
+.dm-header-line{padding: 15px 0px!important;}
+.dm-d_block p{font-size: 16px!important;}
+.dm-wide-image{margin: 0px!important;}
+.d_block .dm-d_block{margin-bottom: 0px!important;}
+.dm-sub-text p{padding: 0px 15px!important;font-size: 16px!important;text-align: left;}
+.dm-7-types .main-heading{font-size: 25px!important;}
+.dm-7-types{margin-top: 20px!important;}
+.types-of-management .pr_60{padding-right: 15px!important;}
+.types-of-management h3{margin-top: 30px!important;margin-bottom: 20px!important;font-size: 20px!important;}
+.web-security-content .heading{font-size: 25px!important;}
+.web-security-content .content-style-two{margin-top:30px;}
+.web-security-content .sub-head-1{margin: 20px 0px!important;}
+.service-details-content .two-column .content-box h3{font-size: 20px!important;}
+.systems-migration .content-column{text-align: left!important;}
+.systems-migration .about-text-content-2 p{text-align: left!important;}
+.data-warehousing-grey .content-box{margin: 20px!important;text-align: center;padding: 12px!important;}
+.qa-header-line-1{padding-top: 25px!important;}
+/*.content-column{padding: 30px;}*/
+.expertise-qa-image{margin: 0px;padding: 30px 0px 0px 0px!important;}
+.expertise-qa-content{margin-top: 20px!important;}
+.qa-testing-grey .content-box{margin: 20px!important;text-align: center;padding: 12px!important;}
+.qa-testing-grey .content-column{padding: 0px!important;}
+.dev-ops-box-container .box-border .content-box{margin: 20px!important;text-align: center;padding: 12px!important;}
+.devops-container{margin: 20px 0px!important;}
+.sft-development-container{margin: 40px 0px!important;}
+.web-development-container .main-heading{font-size: 25px!important;}
+.web-development-container .box-border .content-box{margin: 20px!important;text-align: center;padding: 12px!important;}
+}
+
+/* Styles for tablets */
