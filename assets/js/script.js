@@ -535,11 +535,11 @@
 
 /* Add custom scripts  */
 
-$(document).ready(function(){
+{/*$(document).ready(function(){
 
 	$(".fa-angle-down").click();
 
-})
+})*/}
 
 
 

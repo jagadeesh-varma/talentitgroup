@@ -13,7 +13,7 @@
 .list-style-one li span{color: #73727c;font-weight: normal;text-shadow: none;}
 .services-slide{width: 360px;height: 380px;padding: 20px!important;width: 360px;height: 380px;padding: 20px !important;display: flex;flex-direction: column;justify-content: space-between;}
 .four-item-carousel .text{padding: 25px;display: flex;flex-direction: column;height: 100%;}
-.four-item-carousel p{line-height: 1.5;font-size: 12px;font-weight: 400;margin-top: 20px;}
+.four-item-carousel p{line-height: 1.7;font-size: 12px;font-weight: 400;margin-top: 20px;}
 .four-item-carousel h3,.four-item-carousel p{text-align: left;color: #73727c!important;}
 .four-item-carousel h3{font-size: 20px;}
 .four-item-carousel h3 a{color: #489DD6!important;}
@@ -226,7 +226,7 @@ img.welcome-image {
 .types-of-management h3{  margin-top: 60px;margin-bottom: 30px;font-size: 18px;}
 .types-of-management p{font-size: 16px;color: #666666!important;}
 .cta-section .bg-layer{height: 100%;}
-.country-section .inner-content .single-item .image-box img{height: 325px!important;}
+.country-section .inner-content .single-item .image-box img{height: 350px!important;}
 .sec-title h2{font-size: 35px!important;}
 .country-section .owl-dots{display: none;}
 .country-section .btn-box{  display: flex;flex-direction: column;justify-content: flex-end;align-items: center;height: 100%;}
@@ -281,6 +281,8 @@ img.welcome-image {
 .know-types-header{text-align: center;color: #333333!important;font-size: 40px;}
 .expertise-qa-image{padding: 50px 0px 0px 0px;margin: 0px 50px;}
 .web-development-container .box-border .content-box{margin: 25px!important;}
+.three-breaks{margin-top:40px;}
+.text-heading1{font-size: 22px!important;}
 /* Styles for mobile devices */
 @media only screen and (max-width: 600px) {
 .banner-carousel h1{font-size: 15px!important;font-weight: normal!important;line-height: 2!important;}
@@ -334,6 +336,15 @@ img.welcome-image {
 .team-details{padding: 0px!important;}
 .contact-section{padding: 0px!important;}
 .banner-carousel .content-box{height: 250px!important;justify-content: unset!important;}
+.four-item-carousel p{line-height: 1.7;font-size: 14px;font-weight: 400;margin-top: 20px;}
+.country-section .inner-content .single-item .image-box img{height: 380px!important;}
+.auto-container{padding: 0px 30px;}
+.dm-header .image-column{padding: 0px!important;}
+.three-breaks{margin-top:20px;}
+.text-heading1{font-size: 16px!important;}
+/*.dm-wide-image img{height: 100px;}*/
+.paragraph-type-1{padding: 0px!important;}
+.service-details-content .two-column .content-box h3{font-size: 18px!important;}
 }
 
 /* Styles for tablets */
