@@ -9,6 +9,7 @@
 .banner-carousel h3{font-size: 35px!important;font-weight: 600!important;}
 /*.banner-carousel .p_relative{overflow: hidden!important;}*/
 }
+.tab-active{color: #489DD6!important;}
 p{line-height: 1.8!important;font-weight: normal!important;}
 .let-know-label{opacity: 0;}
 .list-style-one li span{color: #73727c;font-weight: normal;text-shadow: none;}
@@ -287,6 +288,7 @@ img.welcome-image {
 .three-breaks{margin-top:40px;}
 .text-heading1{font-size: 22px!important;}
 .app-development-container p{padding: 30px 0px;}
+.app-development-container{padding-top: 30px;}
 /* Styles for mobile devices */
 @media only screen and (max-width: 600px) {
 .banner-carousel h1{font-size: 15px!important;font-weight: normal!important;line-height: 2!important;}
@@ -334,7 +336,6 @@ img.welcome-image {
 .web-development-container .main-heading{font-size: 25px!important;}
 .web-development-container .box-border .content-box{margin: 20px!important;text-align: center;padding: 12px!important;}
 .mobile-app-coulumn h3{font-size: 20px!important;}
-.mobile-app-coulumn p{margin-top: 20px!important;}
 .mobile-app-coulumn-2{margin-top: 30px;}
 .application-development-grey-1 .box-border .content-box{margin: 20px!important;text-align: center;padding: 12px!important;}
 .team-details{padding: 0px!important;}
@@ -349,6 +350,8 @@ img.welcome-image {
 /*.dm-wide-image img{height: 100px;}*/
 .paragraph-type-1{padding: 0px!important;}
 .service-details-content .two-column .content-box h3{font-size: 18px!important;}
+.main-heading,.know-types-header{font-size: 25px!important;}
+.mt_30_mobile{margin-top: 30px;}
 }
 
 /* Styles for tablets */
