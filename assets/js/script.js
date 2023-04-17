@@ -110,7 +110,76 @@
 				message: {
 					required: true
 				}
-			}
+			},   
+	        submitHandler: function(form) 
+	        {
+	        	var username = $('#username').val();
+	        	var message = $('#message').val();
+	        	var email = $('#email').val();
+                var payload = {
+						  "sender":{
+						    "name":username,
+						    "email":email
+						  },
+						  "to":[
+						    {
+						      "email":"hr@verdictittech.com",
+						      "name":"VerdictIT Tech"
+						    }
+						  ],
+						  "subject":"Email from VerdictIT Contact Us",
+						  "htmlContent":'<html>'+
+				                '<head>'+
+				                        '<meta charset="utf-8">'+
+				                        '<meta name="viewport" content="width=device-width, initial-scale=1">'+
+				                        '<title>AquaDeals</title>'+
+				                        '<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />'+ 
+				                        '<style type="text/css">'+
+				                        '</style>'+
+				                '</head>'+
+				                '<body>'+
+				                    '<table cellpadding="0" width="620" cellspacing="0" border="0" style="border: 1px solid #ccc">'+
+				                        '<tr>'+
+				                            '<td colspan="2" style="text-align:center;padding:25px 25px 0px 25px;"> <img src="https://verdictittech.com/assets/images/logo.png" alt="" title="" width="150px;">'+ '</td>'+
+				                        '</tr>'+
+				                        '<tr>'+
+				                            '<td style="font-family: arial; font-size: 18px; font-weight: normal; color: #737373; padding:20px 5px 0px 20px">'+ 
+				                                '<p style="padding: 0px; margin: 0px; margin-bottom: 10px;"> <b style="color: #353747"> Name</b>: '+username+' </p>'+
+				                            '</td>'+
+				                        '</tr>'+
+				                        '<tr>'+ 
+				                '<td style="font-family: arial; color: #737373; font-size: 13px; padding:0px 20px 10px 20px"><p style="padding: 0px; margin: 0px; margin-bottom: 10px;"> <b style="color: #353747"> Email</b>:  '+email+' </p> </td>'+
+				                        '</tr>'+
+				                        '<tr>'+ 
+				                            '<td style="font-family: arial; font-size: 14px; color: #737373; padding:0px 20px 20px 20px;" colspan="2">'+ 
+				                                '<b style="color: #353747"> Message: </b> '+message+'</td>'+
+				                        '</tr>'+
+				                    '</table>'+
+				                '</body>'+               
+				                '</html>'
+						};
+
+                fetch('https://api.sendinblue.com/v3/smtp/email',{
+                  'method':"POST",
+                  'headers': {
+                    'Content-Type': 'application/json',
+                    'Accept':'application/json',
+                    'api-key':'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'
+                  },
+                  'body':JSON.stringify(payload)
+                }).then(function(serverPromise){ 
+                serverPromise.json()
+                  .then(function(response) {
+                  	$('#success-message').html('<div class="alert alert-success"><strong>Success!</strong> Thank you for contacting us! Your message is important to us, and we will get back to you as soon as we can.</div>');
+                  	$('#contact-form')[0].reset();
+                                        
+                    console.log(response); 
+                  })
+                  .catch(function(e){
+                    console.log(e);
+                  });
+              })
+	        }
 		});
 	}
 
@@ -541,6 +610,9 @@
 
 })*/}
 
+$('#message,#email,#username').keyup(function(e){
+	$('#success-message').html('');
+})
 
 
 	
